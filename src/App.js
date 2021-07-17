@@ -39,8 +39,7 @@ function App() {
 
     try {
 
-      //const yhteys = await fetch("http://api.exchangeratesapi.io/v1/latest?access_key=580bc4f076b0cee3db10de2ece11a4ac");
-      const yhteys = await fetch("");
+      const yhteys = await fetch("http://api.exchangeratesapi.io/v1/latest?access_key=580bc4f076b0cee3db10de2ece11a4ac");
       const tiedot = await yhteys.json();
   
       setData({
